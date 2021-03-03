@@ -8,8 +8,8 @@ import { Nav } from "./components/Nav";
 import { Home } from "./views/Home";
 
 // theming
-import { theme } from './theme'
-import { ThemeProvider } from '@material-ui/core'
+import { theme } from "./theme";
+import { ThemeProvider } from "@material-ui/core";
 
 function App() {
   return (
