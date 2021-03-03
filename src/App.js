@@ -6,20 +6,24 @@ import { Nav } from "./components/Nav";
 
 // views
 import { Home } from "./views/Home";
+import { Osakunta } from "./views/Osakunta"
+import { Jaseneksi } from "./views/Jaseneksi"
+import { Linkkeja } from "./views/Linkkeja"
 
 // theming
 import { theme } from "./theme";
 import { ThemeProvider } from "@material-ui/core";
 
-function App() {
+export const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <Router>
         <Nav />
         <Route exact path="/" component={Home} />
+        <Route exact path="/osakunta" component={Osakunta} />
+        <Route exact path="/jaseneksi" component={Jaseneksi} />
+        <Route exact path="/linkkeja" component={Linkkeja} />
       </Router>
     </ThemeProvider>
   );
 }
-
-export default App;
