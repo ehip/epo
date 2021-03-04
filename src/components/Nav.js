@@ -62,7 +62,7 @@ export const Nav = () => {
         <List dense className={list}>
           {paths.map(({ name, path }, index) => {
             return (
-              <Link id={index} style={{ textDecoration: "none" }} to={path}>
+              <Link key={index} style={{ textDecoration: "none" }} to={path}>
                 <ListItem className={button}>
                   <ListItemText primary={name} />
                 </ListItem>
