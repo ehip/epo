@@ -17,6 +17,13 @@ const theme = createMuiTheme({
             light: '#c7c7c7'
         }
     },
+    typography: {
+        h2: {
+            "@media (max-width:600px)": {
+                fontSize: "3rem"
+            }
+        }
+    }
 })
 
 export { theme }
