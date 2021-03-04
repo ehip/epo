@@ -1,6 +1,13 @@
 import React from "react";
-import { Container } from "@material-ui/core";
+import { Box } from "@material-ui/core";
+
+// components
+import { Jumbotron } from "../components/Jumbotron";
 
 export const Home = () => {
-  return 'EPO'
+  return (
+    <Box>
+      <Jumbotron />
+    </Box>
+  );
 };
