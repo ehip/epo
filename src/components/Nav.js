@@ -27,10 +27,14 @@ const useStyles = makeStyles((theme) => ({
   button: {
     color: theme.palette.textPrimary.main,
     textDecoration: "none",
+    transitionProperty: "color",
+    transitionDuration: "0.1s",
     "&:hover": {
       color: theme.palette.textPrimary.light,
       cursor: "pointer",
       textDecoration: "none",
+      transitionProperty: "color",
+      transitionDuration: "0.1s",
     },
   },
 }));
