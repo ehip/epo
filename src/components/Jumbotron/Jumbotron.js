@@ -1,7 +1,7 @@
 import React from "react";
 import { Paper, Typography, makeStyles } from "@material-ui/core";
 
-import img from "../assets/img/jumbotron.jpeg";
+import img from "../../assets/img/jumbotron.jpeg";
 
 const useStyles = makeStyles({
   root: {

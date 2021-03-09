@@ -2,7 +2,7 @@ import React from "react";
 import { Box } from "@material-ui/core";
 
 // components
-import { Jumbotron } from "../components/Jumbotron";
+import { Jumbotron } from "../components/Jumbotron/Jumbotron";
 
 export const Home = () => {
   return (
