@@ -5,12 +5,12 @@ const useStyles = makeStyles({
   root: {
     padding: 10,
     margin: "auto 5 auto 5",
-    textAlign: "justify!important"
-  }
-})
+    textAlign: "justify!important",
+  },
+});
 
 export const Text = ({ text }) => {
-  const { root } = useStyles()
+  const { root } = useStyles();
 
   return (
     <Container maxWidth="md" className={root}>
