@@ -13,7 +13,7 @@ export const Text = ({ text }) => {
   const { root } = useStyles();
 
   return (
-    <Container maxWidth="md" className={root}>
+    <Container maxWidth="sm" className={root}>
       <Paper square elevation="0">
         <Typography variant="body1">{text}</Typography>
       </Paper>
