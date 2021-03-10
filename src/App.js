@@ -17,7 +17,7 @@ import { Box, ThemeProvider, makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles({
   boxWrapper: {
-    paddingBottom: 300
+    paddingBottom: 320,
   }
 })
 
