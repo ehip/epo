@@ -3,29 +3,39 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 // components
 import { Nav } from "./components/Nav/Nav";
-import { Footer } from "./components/Footer/Footer"
+import { Footer } from "./components/Footer/Footer";
 
 // views
 import { Home } from "./views/Home";
-import { Osakunta } from "./views/Osakunta"
-import { Jaseneksi } from "./views/Jaseneksi"
-import { Linkkeja } from "./views/Linkkeja"
+import { Osakunta } from "./views/Osakunta";
+import { Jaseneksi } from "./views/Jaseneksi";
+import { Linkkeja } from "./views/Linkkeja";
 
 // theming
 import { theme } from "./theme";
-import { ThemeProvider } from "@material-ui/core";
+import { Box, ThemeProvider, makeStyles } from "@material-ui/core";
+
+const useStyles = makeStyles({
+  boxWrapper: {
+    paddingBottom: 300
+  }
+})
 
 export const App = () => {
+  const { boxWrapper } = useStyles() 
+
   return (
     <ThemeProvider theme={theme}>
       <Router>
         <Nav />
-        <Route exact path="/" component={Home} />
-        <Route exact path="/osakunta" component={Osakunta} />
-        <Route exact path="/jaseneksi" component={Jaseneksi} />
-        <Route exact path="/linkkeja" component={Linkkeja} />
+        <Box className={boxWrapper}>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/osakunta" component={Osakunta} />
+          <Route exact path="/jaseneksi" component={Jaseneksi} />
+          <Route exact path="/linkkeja" component={Linkkeja} />
+        </Box>
         <Footer />
       </Router>
     </ThemeProvider>
   );
-}
+};
