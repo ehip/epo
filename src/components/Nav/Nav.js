@@ -61,7 +61,7 @@ export const Nav = () => {
     <Toolbar className={root}>
       <Container maxWidth="xl" className={container}>
         <Link style={{ textDecoration: "none" }} to="/">
-          <Typography className={button}>EPO</Typography>
+          <Typography variant="h6" className={button}>EPO</Typography>
         </Link>
         <List dense className={list}>
           {paths.map(({ name, path }, index) => {
