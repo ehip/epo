@@ -21,8 +21,14 @@ const theme = createMuiTheme({
         h2: {
             "@media (max-width:600px)": {
                 fontSize: "3rem"
+            },
+            "@media (max-width:470px)": {
+                fontSize: "2rem"
+            },
+            "@media (max-width:280px)": {
+                fontSize: "1.5rem"
             }
-        }
+        },
     }
 })
 
