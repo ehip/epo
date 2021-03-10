@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 // components
 import { Nav } from "./components/Nav/Nav";
+import { Footer } from "./components/Footer/Footer"
 
 // views
 import { Home } from "./views/Home";
@@ -23,6 +24,7 @@ export const App = () => {
         <Route exact path="/osakunta" component={Osakunta} />
         <Route exact path="/jaseneksi" component={Jaseneksi} />
         <Route exact path="/linkkeja" component={Linkkeja} />
+        <Footer />
       </Router>
     </ThemeProvider>
   );
