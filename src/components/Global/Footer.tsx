@@ -1,4 +1,3 @@
-import React from "react";
 import { Paper, Grid, makeStyles, Typography } from "@material-ui/core";
 import { Instagram, Facebook } from "@material-ui/icons";
 
@@ -60,7 +59,7 @@ export const Footer = () => {
   ];
 
   return (
-    <Paper square elevation="0" component="footer" className={root}>
+    <Paper square elevation={0} component="footer" className={root}>
       <Grid
         container
         direction="row"
