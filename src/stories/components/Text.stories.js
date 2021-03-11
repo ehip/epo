@@ -1,5 +1,4 @@
-import React from "react";
-import { Text } from "../../components/Text/Text";
+import { Text } from "../../components/Global/Text";
 
 export default {
   title: "Components/Text",
