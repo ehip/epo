@@ -1,4 +1,3 @@
-import React from "react";
 import { Paper, Typography, makeStyles } from "@material-ui/core";
 
 import img from "../../assets/img/jumbotron.jpeg";
@@ -22,7 +21,7 @@ export const Jumbotron = () => {
   const { root } = useStyles();
 
   return (
-    <Paper square elevation="0" className={root}>
+    <Paper square elevation={0} className={root}>
       <Typography variant="h2" align="center">
         OULUN ETELÄ- JA KESKIPOHJALAINEN OSAKUNTA
       </Typography>
