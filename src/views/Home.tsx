@@ -1,7 +1,7 @@
 import { Box } from "@material-ui/core";
 
 // components
-import { Jumbotron } from "../components/Jumbotron/Jumbotron";
+import { Jumbotron } from "../components/Home/Jumbotron";
 import { Text } from "../components/Global/Text"
 
 export const Home = () => {
