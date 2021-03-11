@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Toolbar,
   Container,
@@ -25,12 +24,12 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "row",
   },
   button: {
-    color: theme.palette.textPrimary.main,
+    color: theme.palette.text.primary,
     textDecoration: "none",
     transitionProperty: "color",
     transitionDuration: "0.1s",
     "&:hover": {
-      color: theme.palette.textPrimary.light,
+      color: theme.palette.text.secondary,
       cursor: "pointer",
       textDecoration: "none",
       transitionProperty: "color",
