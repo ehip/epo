@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    color: theme.palette.text.secondary,
+    color: theme.palette.text.primary,
     WebkitTextStroke: "0.5px white",
   },
 }));

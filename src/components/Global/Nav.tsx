@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "row",
   },
   button: {
-    color: theme.palette.text.primary,
+    color: "#c3c3c3",
     textDecoration: "none",
     transitionProperty: "color",
     transitionDuration: "0.1s",
