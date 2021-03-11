@@ -1,3 +1,5 @@
+import { Container } from "@material-ui/core"
+
 export const Jaseneksi = () => {
-    return "jäseneksi"
+    return <Container>jäseneksi</Container>
 }

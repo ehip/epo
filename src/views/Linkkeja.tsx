@@ -1,3 +1,5 @@
+import { Container } from "@material-ui/core"
+
 export const Linkkeja = () => {
-    return "linkkejä"
+    return <Container>linkkejä</Container>
 }
