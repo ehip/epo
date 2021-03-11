@@ -2,7 +2,7 @@ import { Paper, Typography, makeStyles } from "@material-ui/core";
 
 import img from "../../assets/img/jumbotron.jpeg";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
   root: {
     backgroundImage: `url(${img})`,
     backgroundRepeat: "no-repeat",
@@ -13,9 +13,10 @@ const useStyles = makeStyles({
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
+    color: theme.palette.text.secondary,
     WebkitTextStroke: "0.5px white",
   },
-});
+}));
 
 export const Jumbotron = () => {
   const { root } = useStyles();
