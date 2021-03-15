@@ -2,8 +2,8 @@ import { Container, Paper, Typography, makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles({
   root: {
-    padding: 10,
-    margin: "auto 5 auto 5",
+    padding: 30,
+    margin: "auto auto",
     textAlign: "justify",
   },
 });
@@ -16,7 +16,7 @@ export const Text = ({ text }: Props) => {
   const { root } = useStyles();
 
   return (
-    <Container maxWidth="sm" className={root}>
+    <Container maxWidth="md" className={root}>
       <Paper square elevation={0}>
         <Typography variant="body1">{text}</Typography>
       </Paper>
