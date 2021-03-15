@@ -5,10 +5,10 @@ import { Nav } from "./components/Global/Nav";
 import { Footer } from "./components/Global/Footer";
 
 // views
-import { Home } from "./views/Home";
-import { Osakunta } from "./views/Osakunta";
-import { Jaseneksi } from "./views/Jaseneksi";
-import { Linkkeja } from "./views/Linkkeja";
+import { Home } from "./pages/Home";
+import { Osakunta } from "./pages/Osakunta";
+import { Jaseneksi } from "./pages/Jaseneksi";
+import { Linkkeja } from "./pages/Linkkeja";
 
 // theming
 import { theme } from "./theme";
