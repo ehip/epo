@@ -1,16 +1,23 @@
-import { Container, Typography } from '@material-ui/core'
-import { Text } from '../Text'
+import { Container, Typography } from "@material-ui/core";
+
+// components
+import { Text } from "../Text";
+
+// styles
+import { useStyles } from "./styles";
 
 interface Props {
-    title: string,
-    text: string
+  title: string;
+  text: string;
 }
 
 export const TextField = ({ title, text }: Props) => {
-    return (
-        <Container>
-            <Typography variant="h3">{title}</Typography>
-            <Text text={text} />
-        </Container>
-    )
-}
+  const { root } = useStyles();
+
+  return (
+    <Container className={root}>
+      <Typography variant="h3">{title}</Typography>
+      <Text text={text} />
+    </Container>
+  );
+};

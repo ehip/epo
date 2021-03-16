@@ -1,13 +1,10 @@
-import { Box, makeStyles } from "@material-ui/core";
+import { Box, Typography } from "@material-ui/core";
 
 // components
-import { TextField } from "../components/TextField";
+import { TextField } from "../../components/TextField";
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    whiteSpace: "pre-line",
-  },
-}));
+// styles
+import { useStyles } from './styles'
 
 export const Osakunta = () => {
   const { root } = useStyles();
@@ -20,6 +17,7 @@ export const Osakunta = () => {
     <Box className={root}>
       <TextField title="Toiminta" text={toiminta} />
       <TextField title="Historia" text={historia} />
+      <Typography variant="h3">Hallitus</Typography>
     </Box>
   );
 };

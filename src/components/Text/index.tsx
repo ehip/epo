@@ -1,15 +1,10 @@
-import { Container, Paper, Typography, makeStyles } from "@material-ui/core";
+import { Container, Paper, Typography } from "@material-ui/core";
 
-const useStyles = makeStyles({
-  root: {
-    padding: 30,
-    margin: "auto auto",
-    textAlign: "justify",
-  },
-});
+// styles
+import { useStyles } from "./styles";
 
 interface Props {
-    text: string
+  text: string;
 }
 
 export const Text = ({ text }: Props) => {
