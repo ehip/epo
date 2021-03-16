@@ -1,4 +1,4 @@
-import { Nav } from "../../components/Global/Nav";
+import { Nav } from "../../components/Nav/Nav";
 
 export default {
   title: "Components/Nav",

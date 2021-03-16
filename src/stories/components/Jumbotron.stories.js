@@ -1,5 +1,5 @@
 import React from "react";
-import { Jumbotron } from "../../components/Home/Jumbotron";
+import { Jumbotron } from "../../components/Jumbotron/Jumbotron";
 
 export default {
   title: "Components/Jumbotron",

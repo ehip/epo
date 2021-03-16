@@ -1,4 +1,4 @@
-import { Text } from "../../components/Global/Text";
+import { Text } from "../../components/Text";
 
 export default {
   title: "Components/Text",

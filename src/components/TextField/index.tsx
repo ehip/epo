@@ -1,5 +1,5 @@
 import { Container, Typography } from '@material-ui/core'
-import { Text } from './Text'
+import { Text } from '../Text'
 
 interface Props {
     title: string,

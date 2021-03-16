@@ -1,7 +1,7 @@
 import { Box, makeStyles } from "@material-ui/core";
 
 // components
-import { TextField } from "../components/Global/TextField";
+import { TextField } from "../components/TextField";
 
 const useStyles = makeStyles((theme) => ({
   root: {
