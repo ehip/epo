@@ -1,4 +1,4 @@
-import { Container, Typography } from "@material-ui/core";
+import { Box, Typography } from "@material-ui/core";
 
 // components
 import { Text } from "../Text";
@@ -15,9 +15,9 @@ export const TextField = ({ title, text }: Props) => {
   const { root } = useStyles();
 
   return (
-    <Container className={root}>
+    <Box className={root}>
       <Typography variant="h3">{title}</Typography>
       <Text text={text} />
-    </Container>
+    </Box>
   );
 };

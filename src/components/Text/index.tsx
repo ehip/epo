@@ -1,4 +1,4 @@
-import { Container, Paper, Typography } from "@material-ui/core";
+import { Box, Paper, Typography } from "@material-ui/core";
 
 // styles
 import { useStyles } from "./styles";
@@ -11,10 +11,10 @@ export const Text = ({ text }: Props) => {
   const { root } = useStyles();
 
   return (
-    <Container maxWidth="md" className={root}>
+    <Box className={root}>
       <Paper square elevation={0}>
         <Typography variant="body1">{text}</Typography>
       </Paper>
-    </Container>
+    </Box>
   );
 };
