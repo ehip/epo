@@ -1,5 +1,5 @@
 # EPO
-This repository stores the codebase for Oulun Etelä- ja Keskipohjalainen Osakunta (EPO ry) website. EPO ry is a student organization targeted for students originating from the Southern and Central Ostrobothnia regions. EPO arranges all kinds of activities for its' members in the form of different events and activities. The goal of EPO is to bring fellow Southern and Central Ostrobothnian students together.
+This repository stores the codebase for Oulun Etelä- ja Keskipohjalainen Osakunta (EPO ry) website. EPO ry is a student organization targeted for students originating from the Southern and Central Ostrobothnia regions. EPO arranges all kinds of activities for its' members in the form of different events and activities.
 
 ## Install
 ``` shell
