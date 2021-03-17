@@ -1,4 +1,4 @@
-import { Box } from "@material-ui/core";
+import { Box, Container } from "@material-ui/core";
 
 // components
 import { Jumbotron } from "../../components/Jumbotron";
@@ -10,7 +10,9 @@ export const Home = () => {
   return (
     <Box>
       <Jumbotron />
-      <Text text={text} />
+      <Container maxWidth="md">
+        <Text text={text} />
+      </Container>
     </Box>
   );
 };
