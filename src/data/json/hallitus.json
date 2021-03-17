@@ -1,0 +1,42 @@
+[
+  {
+    "img": "assets/img/mikko.jpg",
+    "position": "Puheenjohtaja",
+    "name": "Mikko Hakoniemi"
+  },
+  {
+    "img": "assets/img/tuulia.jpg",
+    "position": "Varapuheenjohtaja ja fuksivastaava",
+    "name": "Tuulia Ala-Nisula"
+  },
+  {
+    "img": "assets/img/kiia.jpg",
+    "position": "Sihteeri",
+    "name": "Kiia Korpi"
+  },
+  {
+    "img": "assets/img/timo.jpg",
+    "position": "Talousvastaava",
+    "name": "Timo Keisala"
+  },
+  {
+    "img": "assets/img/joel.jpg",
+    "position": "Webmaster",
+    "name": "Joel Mäenpää"
+  },
+  {
+    "img": "assets/img/noora.jpg",
+    "position": "Somevastaava",
+    "name": "Noora "
+  },
+  {
+    "img": "assets/img/iikka.jpg",
+    "position": "Haalarimerkkivastaava",
+    "name": "Iikka Peltokangas"
+  },
+  {
+    "img": "assets/img/aleksi.jpg",
+    "position": "Hallituksen varajäsen",
+    "name": "Aleksi "
+  }
+]
