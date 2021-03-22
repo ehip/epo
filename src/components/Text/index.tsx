@@ -3,11 +3,7 @@ import { Box, Paper, Typography } from "@material-ui/core";
 // styles
 import { useStyles } from "./styles";
 
-interface Props {
-  text: string;
-}
-
-export const Text = ({ text }: Props) => {
+export const Text = ({ text }: { text: string }) => {
   const { root } = useStyles();
 
   return (

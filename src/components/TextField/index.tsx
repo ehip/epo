@@ -6,12 +6,7 @@ import { Text } from "../Text";
 // styles
 import { useStyles } from "./styles";
 
-interface Props {
-  title: string;
-  text: string;
-}
-
-export const TextField = ({ title, text }: Props) => {
+export const TextField = ({ title, text }: { title: string; text: string }) => {
   const { root } = useStyles();
 
   return (
