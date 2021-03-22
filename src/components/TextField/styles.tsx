@@ -5,4 +5,7 @@ export const useStyles = makeStyles({
     textAlign: "center",
     margin: "10px 0 10px 0",
   },
+  header: {
+    margin: "10px 0 10px 0",
+  },
 });

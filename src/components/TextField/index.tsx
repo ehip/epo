@@ -7,11 +7,11 @@ import { Text } from "../Text";
 import { useStyles } from "./styles";
 
 export const TextField = ({ title, text }: { title: string; text: string }) => {
-  const { root } = useStyles();
+  const { root, header } = useStyles();
 
   return (
     <Box className={root}>
-      <Typography variant="h3">{title}</Typography>
+      <Typography variant="h3" className={header}>{title}</Typography>
       <Text text={text} />
     </Box>
   );
