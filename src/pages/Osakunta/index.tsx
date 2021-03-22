@@ -54,7 +54,7 @@ export const Osakunta = () => {
         <Typography variant="h3" className={hallitusTitle}>
           Vanhat hallitukset
         </Typography>
-        <Grid container spacing={1}>
+        <Grid className={hallitusGrid} container spacing={1}>
           {vanhatHallitukset.map((hallitus, index) => {
             return (
               <Grid
