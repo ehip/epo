@@ -10,7 +10,7 @@ export const Home = () => {
   return (
     <Box>
       <Jumbotron />
-      <Container maxWidth="md">
+      <Container maxWidth="md" style={{ padding: "40px" }}>
         <Text text={text} />
       </Container>
     </Box>
