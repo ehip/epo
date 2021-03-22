@@ -11,7 +11,10 @@ export const MemberCard = ({ cardData }: { cardData: Jasen }) => {
 
   return (
     <Card variant="outlined" className={root}>
-      <CardMedia src={require(`../../${cardData.img}`).default} component="img" />
+      <CardMedia
+        src={require(`../../${cardData.img}`).default}
+        component="img"
+      />
       <CardContent>
         <Typography variant="body1">{cardData.position}</Typography>
         <Typography variant="subtitle2">{cardData.name}</Typography>
