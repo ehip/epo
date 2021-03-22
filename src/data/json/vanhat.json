@@ -1,5 +1,20 @@
 [
   {
+    "year": 2020,
+    "board": [
+      { "title": "Puheenjohtaja", "name": "Timo Keisala" },
+      { "title": "Fuksikapteeni & vpj.", "name": "Aleksi Yli-Sissala" },
+      { "title": "Sihteeri", "name": "Katri Ollila" },
+      { "title": "Talousvastaava", "name": "Tuulia Ala-Nisula" },
+      { "title": "Haalarimerkkivastaava", "name": "Mikko Hakoniemi" },
+      { "title": "Homo Economicus", "name": "Erno Ahola-Olli" },
+      { "title": "Hallituksen jäsen", "name": "Bence Berki" }
+    ],
+    "clerks": [
+      { "title": "Webmaster", "name": "Jukka Pajukangas" }
+    ]
+  },
+  {
     "year": 2019,
     "board": [
       { "title": "Puheenjohtaja", "name": "Erno Ahola-Olli" },
