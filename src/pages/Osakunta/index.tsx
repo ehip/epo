@@ -1,7 +1,7 @@
 import { Box, Container, Typography, Grid } from "@material-ui/core";
 
 // components
-import { TextField } from "../../components/TextField";
+import { HeaderText } from "../../components/HeaderText";
 import { MemberCard } from "../../components/MemberCard";
 import { MemberAccordion } from "../../components/MemberAccordion";
 
@@ -29,8 +29,8 @@ export const Osakunta = () => {
   return (
     <Box className={root}>
       <Container maxWidth="lg">
-        <TextField title="Toiminta" text={toiminta} />
-        <TextField title="Historia" text={historia} />
+        <HeaderText title="Toiminta" text={toiminta} />
+        <HeaderText title="Historia" text={historia} />
         <Typography variant="h3" className={hallitusTitle}>
           Hallitus
         </Typography>

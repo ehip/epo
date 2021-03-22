@@ -6,7 +6,7 @@ import { Text } from "../Text";
 // styles
 import { useStyles } from "./styles";
 
-export const TextField = ({ title, text }: { title: string; text: string }) => {
+export const HeaderText = ({ title, text }: { title: string; text: string }) => {
   const { root, header } = useStyles();
 
   return (
