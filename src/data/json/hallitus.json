@@ -1,42 +1,42 @@
 [
   {
     "img": "assets/img/mikko.jpg",
-    "position": "Puheenjohtaja",
+    "title": "Puheenjohtaja",
     "name": "Mikko Hakoniemi"
   },
   {
     "img": "assets/img/tuulia.jpg",
-    "position": "Varapuheenjohtaja ja fuksivastaava",
+    "title": "Varapuheenjohtaja ja fuksivastaava",
     "name": "Tuulia Ala-Nisula"
   },
   {
     "img": "assets/img/kiia.jpg",
-    "position": "Sihteeri",
+    "title": "Sihteeri",
     "name": "Kiia Korpi"
   },
   {
     "img": "assets/img/timo.jpg",
-    "position": "Talousvastaava",
+    "title": "Talousvastaava",
     "name": "Timo Keisala"
   },
   {
     "img": "assets/img/joel.jpg",
-    "position": "Webmaster",
+    "title": "Webmaster",
     "name": "Joel Mäenpää"
   },
   {
     "img": "assets/img/noora.jpg",
-    "position": "Somevastaava",
+    "title": "Somevastaava",
     "name": "Noora "
   },
   {
     "img": "assets/img/iikka.jpg",
-    "position": "Haalarimerkkivastaava",
+    "title": "Haalarimerkkivastaava",
     "name": "Iikka Peltokangas"
   },
   {
     "img": "assets/img/aleksi.jpg",
-    "position": "Hallituksen varajäsen",
+    "title": "Hallituksen varajäsen",
     "name": "Aleksi Yli-Sissala"
   }
 ]

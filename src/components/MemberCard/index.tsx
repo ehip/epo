@@ -16,7 +16,7 @@ export const MemberCard = ({ cardData }: { cardData: Jasen }) => {
         component="img"
       />
       <CardContent>
-        <Typography variant="body1">{cardData.position}</Typography>
+        <Typography variant="body1">{cardData.title}</Typography>
         <Typography variant="subtitle2">{cardData.name}</Typography>
       </CardContent>
     </Card>

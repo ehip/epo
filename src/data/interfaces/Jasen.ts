@@ -1,5 +1,5 @@
 export interface Jasen {
   img: string;
-  position: string;
+  title: string;
   name: string;
 }
