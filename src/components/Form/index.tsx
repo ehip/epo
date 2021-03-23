@@ -15,17 +15,17 @@ import { Lomake } from "../../data/interfaces/Lomake";
 
 export const Form = () => {
   const { root, checkbox } = useStyles();
-  const [checked, setChecked] = useState<boolean>(false);
   const [iframe, setIFrame] = useState<boolean>(false);
   const [form, setForm] = useState<Lomake>({
     etunimi: "",
     sukunimi: "",
     kotipaikka: "",
     sahkoposti: "",
+    checkbox: false
   });
 
   const handleCheckChange = (event: ChangeEvent<HTMLInputElement>) => {
-    setChecked(event.target.checked);
+    setForm({ ...form, checkbox: event.target.checked });
   };
 
   const handleInputChange = (event: ChangeEvent<HTMLInputElement>) => {
@@ -125,7 +125,7 @@ export const Form = () => {
             control={
               <Checkbox
                 className={checkbox}
-                checked={checked}
+                checked={form.checkbox}
                 onChange={handleCheckChange}
                 name="checked"
               />

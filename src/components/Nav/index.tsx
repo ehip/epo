@@ -17,22 +17,22 @@ export const Nav = () => {
   const paths = [
     {
       name: "Osakunta",
-      path: "/osakunta",
+      path: "/~epo/osakunta",
     },
     {
       name: "Jäseneksi",
-      path: "/jaseneksi",
+      path: "/~epo/jaseneksi",
     },
     {
       name: "Linkkejä",
-      path: "/linkkeja",
+      path: "/~epo/linkkeja",
     },
   ];
 
   return (
     <Toolbar className={root}>
       <Container maxWidth="xl" className={container}>
-        <Link style={{ textDecoration: "none" }} to="/">
+        <Link style={{ textDecoration: "none" }} to="/~epo">
           <Typography variant="h6" className={button}>
             EPO
           </Typography>

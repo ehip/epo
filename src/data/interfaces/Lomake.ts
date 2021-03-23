@@ -3,4 +3,5 @@ export interface Lomake {
   sukunimi: string;
   kotipaikka: string;
   sahkoposti: string;
+  checkbox: boolean;
 }

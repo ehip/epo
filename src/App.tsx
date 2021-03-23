@@ -28,10 +28,10 @@ export const App = () => {
       <Router>
         <Nav />
         <Box className={boxWrapper}>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/osakunta" component={Osakunta} />
-          <Route exact path="/jaseneksi" component={Jaseneksi} />
-          <Route exact path="/linkkeja" component={Linkkeja} />
+          <Route exact path="/~epo" component={Home} />
+          <Route exact path="/~epo/osakunta" component={Osakunta} />
+          <Route exact path="/~epo/jaseneksi" component={Jaseneksi} />
+          <Route exact path="/~epo/linkkeja" component={Linkkeja} />
         </Box>
         <Footer />
       </Router>
