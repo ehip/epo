@@ -32,7 +32,7 @@ export const Nav = () => {
   return (
     <Toolbar className={root}>
       <Container maxWidth="xl" className={container}>
-        <Link style={{ textDecoration: "none" }} to="/~epo">
+        <Link style={{ textDecoration: "none" }} to="/~epo/">
           <Typography variant="h6" className={button}>
             EPO
           </Typography>

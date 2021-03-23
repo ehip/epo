@@ -28,7 +28,7 @@ export const App = () => {
       <Router>
         <Nav />
         <Box className={boxWrapper}>
-          <Route exact path="/~epo" component={Home} />
+          <Route exact path="/~epo/" component={Home} />
           <Route exact path="/~epo/osakunta" component={Osakunta} />
           <Route exact path="/~epo/jaseneksi" component={Jaseneksi} />
           <Route exact path="/~epo/linkkeja" component={Linkkeja} />
