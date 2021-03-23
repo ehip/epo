@@ -7,9 +7,9 @@ export const useStyles = makeStyles((theme) => ({
     textAlign: "center",
   },
   header: {
-    margin: 15
+    margin: 15,
   },
   member: {
-    margin: 10
-  }
+    margin: 10,
+  },
 }));

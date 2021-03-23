@@ -5,7 +5,7 @@ export const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     justifyContent: "center",
     textAlign: "center",
-    whiteSpace: "pre-line"
+    whiteSpace: "pre-line",
   },
   header: {
     textAlign: "center",

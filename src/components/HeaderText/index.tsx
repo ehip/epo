@@ -6,12 +6,20 @@ import { Text } from "../Text";
 // styles
 import { useStyles } from "./styles";
 
-export const HeaderText = ({ title, text }: { title: string; text: string }) => {
+export const HeaderText = ({
+  title,
+  text,
+}: {
+  title: string;
+  text: string;
+}) => {
   const { root, header } = useStyles();
 
   return (
     <Box className={root}>
-      <Typography variant="h3" className={header}>{title}</Typography>
+      <Typography variant="h3" className={header}>
+        {title}
+      </Typography>
       <Text text={text} />
     </Box>
   );

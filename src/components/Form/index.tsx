@@ -16,7 +16,7 @@ import { Lomake } from "../../data/interfaces/Lomake";
 export const Form = () => {
   const { root, checkbox } = useStyles();
   const [checked, setChecked] = useState<boolean>(false);
-  const [iframe, setIFrame] = useState<boolean>(false)
+  const [iframe, setIFrame] = useState<boolean>(false);
   const [form, setForm] = useState<Lomake>({
     etunimi: "",
     sukunimi: "",
@@ -34,8 +34,8 @@ export const Form = () => {
   };
 
   const handleButtonClick = () => {
-    setIFrame(true)
-  }
+    setIFrame(true);
+  };
 
   return (
     <form
@@ -134,13 +134,21 @@ export const Form = () => {
           />
         </Grid>
         <Grid item xs>
-          <Button variant="contained" color="primary" onClick={handleButtonClick} type="submit">
+          <Button
+            variant="contained"
+            color="primary"
+            onClick={handleButtonClick}
+            type="submit"
+          >
             Lähetä
           </Button>
         </Grid>
-        <Grid item xs style={{width: "100%"}}>
-          <iframe title="iframe" style={{border: 0, display: iframe ? "block" : "none" }} name="formIFrame">
-          </iframe>
+        <Grid item xs style={{ width: "100%" }}>
+          <iframe
+            title="iframe"
+            style={{ border: 0, display: iframe ? "block" : "none" }}
+            name="formIFrame"
+          ></iframe>
         </Grid>
       </Grid>
     </form>

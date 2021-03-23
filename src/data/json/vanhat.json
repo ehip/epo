@@ -10,9 +10,7 @@
       { "title": "Homo Economicus", "name": "Erno Ahola-Olli" },
       { "title": "Hallituksen jäsen", "name": "Bence Berki" }
     ],
-    "clerks": [
-      { "title": "Webmaster", "name": "Jukka Pajukangas" }
-    ]
+    "clerks": [{ "title": "Webmaster", "name": "Jukka Pajukangas" }]
   },
   {
     "year": 2019,

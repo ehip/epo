@@ -17,11 +17,11 @@ import { Box, ThemeProvider, makeStyles } from "@material-ui/core";
 const useStyles = makeStyles({
   boxWrapper: {
     paddingBottom: 320,
-  }
-})
+  },
+});
 
 export const App = () => {
-  const { boxWrapper } = useStyles() 
+  const { boxWrapper } = useStyles();
 
   return (
     <ThemeProvider theme={theme}>

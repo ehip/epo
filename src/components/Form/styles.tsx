@@ -6,6 +6,6 @@ export const useStyles = makeStyles((theme) => ({
     margin: "10px 0",
   },
   checkbox: {
-      color: theme.palette.primary.main,
-  }
+    color: theme.palette.primary.main,
+  },
 }));
