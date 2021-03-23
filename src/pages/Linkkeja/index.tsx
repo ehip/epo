@@ -1,4 +1,7 @@
-import { Container, Grid, Typography } from "@material-ui/core";
+import { Container, Grid, Typography, Link } from "@material-ui/core";
+
+// styles
+import { useStyles } from './styles'
 
 // interfaces
 import { Linkki, Linkit } from "../../data/interfaces/Linkki";
@@ -7,7 +10,9 @@ import { Linkki, Linkit } from "../../data/interfaces/Linkki";
 import linkit from "../../data/json/linkit.json";
 
 export const Linkkeja = () => {
-  // imagine this is the first thing that comes to your mind
+  const { header, linkClass } = useStyles()
+
+  // imagine this is the first thing that comes to your mind after almost 3 years of programming
   // holy shit i'm such a flaming piece of garbage of a programmer
   const links: Linkit[] = linkit;
   const epoLinks: Linkki[] = links[0].links;
@@ -16,30 +21,30 @@ export const Linkkeja = () => {
   return (
     <Container maxWidth="lg">
       <Grid container direction="column" justify="center" alignItems="center">
-        <Grid item>
-          <Typography variant="h2">Hyödyllisiä linkkejä</Typography>
+        <Grid item className={header}>
+          <Typography variant="h3">Hyödyllisiä linkkejä</Typography>
         </Grid>
         {epoLinks.map((link, index) => {
           return (
-            <Grid item>
+            <Grid item className={linkClass}>
               <Typography variant="body1">
-                <a key={index} href={link.link}>
+                <Link key={index} href={link.link}>
                   {link.name}
-                </a>
+                </Link>
               </Typography>
             </Grid>
           );
         })}
-        <Grid item>
+        <Grid item className={header}>
           <Typography variant="h4">Muita osakuntia</Typography>
         </Grid>
         {otherLinks.map((link, index) => {
           return (
-            <Grid item>
+            <Grid item className={linkClass}>
               <Typography variant="body1">
-                <a key={index} href={link.link}>
+                <Link key={index} href={link.link}>
                   {link.name}
-                </a>
+                </Link>
               </Typography>
             </Grid>
           );
