@@ -132,6 +132,7 @@ export const Form = () => {
             }
             label="Liity sähköpostilistalle"
           />
+          <input type="hidden" name="checkBoxValue" value={form.checkbox ? "listalle: yay" : "listalle: nay"} />
         </Grid>
         <Grid item xs>
           <Button
