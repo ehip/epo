@@ -1,0 +1,54 @@
+[
+  {
+    "links": [
+      {
+        "name": "Galleria",
+        "link": "https://epo.kuvat.fi/"
+      },
+      {
+        "name": "Haalarimerkkien tilaaminen",
+        "link": "https://forms.gle/73Z9ByDMECbmYBtf9"
+      }
+    ]
+  },
+  {
+    "links": [
+      {
+        "name": "VAASAN YLIOPISTON ETELÄPOHJALAINEN OSAKUNTA",
+        "link": "http://lipas.uwasa.fi/~puukkoo/"
+      },
+      {
+        "name": "TAMPEREEN TEEKKARIEN ETELÄ-POHJALAINEN OSAKUNTA",
+        "link": "http://www.students.tut.fi/~ttepo/"
+      },
+      {
+        "name": "TAMPEREEN YLIOPISTON POHJALAINEN OSAKUNTA",
+        "link": "http://typo-osakunta.fi/"
+      },
+      {
+        "name": "Österbottniska Nationen vid Åbo Akademi",
+        "link": "https://www.osterbottniskanationen.com/"
+      },
+      {
+        "name": "VASA NATION",
+        "link": "http://vasa.nation.fi/"
+      },
+      {
+        "name": "HELSINGIN YLIOPISTON ETELÄ-POHJALAINEN OSAKUNTA",
+        "link": "http://epo.osakunta.fi/"
+      },
+      {
+        "name": "HELSINGIN YLIOPISTON POHJOIS-POHJALAINEN OSAKUNTA",
+        "link": "http://pohjoispohjalaiset.fi/"
+      },
+      {
+        "name": "Turun yliopiston pohjalainen osakunta",
+        "link": "https://tyyala.utu.fi/tpo/"
+      },
+      {
+        "name": "Oulun Seudun Eteläpohjalaiset",
+        "link": "https://www.oulunseudunetelapohjalaiset.com/"
+      }
+    ]
+  }
+]
