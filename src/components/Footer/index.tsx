@@ -1,4 +1,4 @@
-import { Paper, Grid, Typography } from "@material-ui/core";
+import { Paper, Grid, Typography, Link } from "@material-ui/core";
 import { Instagram, Facebook } from "@material-ui/icons";
 
 import { useStyles } from "./styles";
@@ -35,10 +35,14 @@ export const Footer = () => {
         className={gridContainer}
       >
         <Grid item>
-          <Facebook className={icon} />
+          <Link href="https://www.facebook.com/groups/oulunepo">
+            <Facebook className={icon} />
+          </Link>
         </Grid>
         <Grid item>
-          <Instagram className={icon} />
+          <Link href="https://www.instagram.com/oulunepo/">
+            <Instagram className={icon} />
+          </Link>
         </Grid>
         <Grid
           item
