@@ -7,14 +7,8 @@ export const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     whiteSpace: "pre-line"
   },
-  hallitusTitle: {
-    margin: "10px 0 10px 0",
+  header: {
     textAlign: "center",
-  },
-  hallitusGrid: {
-    margin: "10px 0 10px 0",
-  },
-  hallitusCard: {
-    textAlign: "left",
+    margin: "20px 0",
   },
 }));
