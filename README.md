@@ -18,4 +18,5 @@ yarn add
 ## Known Issues
 * Refreshing manually breaks the live page, cause Oulu Uni IT people haven't apparently enabled all .htaccess options. Looking into independent hosting at some point.
 * No validation for the form... too lazy to do it... no one will abuse it, right?
+* I'm a terrible programmer!!!
 * Post an issue if you find something
