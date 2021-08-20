@@ -21,7 +21,7 @@ export const Footer = () => {
     },
     {
       key: "email",
-      data: "epo-hallitus@lists.oulu.fi",
+      data: "epo.hallitus@gmail.com",
     },
   ];
 
