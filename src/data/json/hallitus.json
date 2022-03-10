@@ -1,33 +1,28 @@
 [
   {
-    "img": "assets/img/mikko.jpg",
+    "img": "assets/img/eero.jpg",
     "title": "Puheenjohtaja",
+    "name": "Eero Hippi"
+  },
+  {
+    "img": "assets/img/mikko.jpg",
+    "title": "Varapuheenjohtaja",
     "name": "Mikko Hakoniemi"
   },
   {
-    "img": "assets/img/tuulia.jpg",
-    "title": "Varapuheenjohtaja ja fuksivastaava",
-    "name": "Tuulia Ala-Nisula"
+    "img": "assets/img/aino.jpg",
+    "title": "Sihteeri",
+    "name": "Aino Välkkilä"
+  },
+  {
+    "img": "assets/img/jenni.jpg",
+    "title": "Talousvastaava",
+    "name": "Jenni Parpala"
   },
   {
     "img": "assets/img/kiia.jpg",
-    "title": "Sihteeri",
-    "name": "Kiia Korpi"
-  },
-  {
-    "img": "assets/img/timo.jpg",
-    "title": "Talousvastaava",
-    "name": "Timo Keisala"
-  },
-  {
-    "img": "assets/img/joel.jpg",
-    "title": "Webmaster",
-    "name": "Joel Mäenpää"
-  },
-  {
-    "img": "assets/img/noora.jpg",
     "title": "Somevastaava",
-    "name": "Noora Jurvakainen"
+    "name": "Kiia Korpi"
   },
   {
     "img": "assets/img/iikka.jpg",
@@ -35,8 +30,13 @@
     "name": "Iikka Peltokangas"
   },
   {
-    "img": "assets/img/aleksi.jpg",
-    "title": "Hallituksen varajäsen",
-    "name": "Aleksi Yli-Sissala"
+    "img": "assets/img/henna.jpg",
+    "title": "Hallituksen varajäsen / Vujuvastaava",
+    "name": "Henna Hassinen"
+  },
+  {
+    "img": "assets/img/niklas.jpg",
+    "title": "Hallituksen varajäsen / Isäntä & Emäntä",
+    "name": "Niklas Nylund"
   }
 ]

@@ -1,5 +1,19 @@
 [
   {
+    "year": 2021,
+    "board": [
+      { "title": "Puheenjohtaja", "name": "Mikko Hakoniemi" },
+      { "title": "Varapuheenjohtaja ja fuksivastaava", "name": "Tuulia Ala-Nisula" },
+      { "title": "Sihteeri", "name": "Kiia Korpi" },
+      { "title": "Talousvastaava", "name": "Timo Keisala" },
+      { "title": "Haalarimerkkivastaava", "name": "Iikka Peltokangas" },
+      { "title": "Webmaster", "name": "Joel Mäenpää" },
+      { "title": "Somevastava", "name": "Noora Jurvakainen" },
+      { "title": "Hallituksen varajäsen", "name": "Aleksi Yli-Sissala"}
+    ],
+    "clerks": [{ "title": "Webmaster", "name": "Jukka Pajukangas" }]
+  },
+  {
     "year": 2020,
     "board": [
       { "title": "Puheenjohtaja", "name": "Timo Keisala" },
