@@ -5,38 +5,18 @@
     "name": "Eero Hippi"
   },
   {
-    "img": "assets/img/mikko.jpg",
-    "title": "Varapuheenjohtaja",
-    "name": "Mikko Hakoniemi"
-  },
-  {
-    "img": "assets/img/aino.jpg",
-    "title": "Sihteeri",
-    "name": "Aino Välkkilä"
-  },
-  {
     "img": "assets/img/jenni.jpg",
-    "title": "Talousvastaava",
+    "title": "Varapuheenjohtaja ja talousvastaava",
     "name": "Jenni Parpala"
   },
   {
-    "img": "assets/img/kiia.jpg",
-    "title": "Somevastaava",
-    "name": "Kiia Korpi"
+    "img": "assets/img/niklas.jpg",
+    "title": "Sihteeri",
+    "name": "Niklas Nylund"
   },
   {
     "img": "assets/img/iikka.jpg",
-    "title": "Haalarimerkkivastaava",
+    "title": "Haalarimerkkivastaava, hallituksen varajäsen",
     "name": "Iikka Peltokangas"
-  },
-  {
-    "img": "assets/img/henna.jpg",
-    "title": "Hallituksen varajäsen / Vujuvastaava",
-    "name": "Henna Hassinen"
-  },
-  {
-    "img": "assets/img/niklas.jpg",
-    "title": "Hallituksen varajäsen / Isäntä & Emäntä",
-    "name": "Niklas Nylund"
   }
 ]

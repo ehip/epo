@@ -1,5 +1,23 @@
 [
   {
+    "year": 2022,
+    "board": [
+      { "title": "Puheenjohtaja", "name": "Eero Hippi" },
+      { "title": "Varapuheenjohtaja", "name": "Mikko Hakoniemi" },
+      { "title": "Sihteeri", "name": "Aino Välkkilä" },
+      { "title": "Talousvastaava", "name": "Jenni Parpala" },
+      { "title": "Haalarimerkkivastaava", "name": "Iikka Peltokangas" },
+      { "title": "Somevastava", "name": "Kiira Korpi" },
+      { "title": "Hallituksen varajäsen / Vujuvastaava", "name": "Henna Hassinen"},
+      { "title": "Hallituksen varajäsen / Isäntä & Emäntä", "name": "Niklas Nylund"}
+    ],
+    "clerks": [
+      { "title": "AMK-vastaava ja Pikkuemäntä", "name": "Noora Jurvakainen" },
+      { "title": "Webmaster", "name": "Atte Viertola"},
+      { "title": "Vujutoimihenkilö", "name": "Mila Laitala"}
+    ]
+  },
+  {
     "year": 2021,
     "board": [
       { "title": "Puheenjohtaja", "name": "Mikko Hakoniemi" },
@@ -11,7 +29,7 @@
       { "title": "Somevastava", "name": "Noora Jurvakainen" },
       { "title": "Hallituksen varajäsen", "name": "Aleksi Yli-Sissala"}
     ],
-    "clerks": [{ "title": "Webmaster", "name": "Jukka Pajukangas" }]
+    "clerks": [{ "title": "-", "name": "-" }]
   },
   {
     "year": 2020,

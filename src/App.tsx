@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // components
 import { Nav } from "./components/Nav";
@@ -28,10 +28,12 @@ export const App = () => {
       <Router>
         <Nav />
         <Box className={boxWrapper}>
-          <Route exact path="/~epo/" component={Home} />
-          <Route exact path="/~epo/osakunta" component={Osakunta} />
-          <Route exact path="/~epo/jaseneksi" component={Jaseneksi} />
-          <Route exact path="/~epo/linkkeja" component={Linkkeja} />
+          <Routes>
+            <Route path="/~epo/" Component={Home} />
+            <Route path="/~epo/osakunta" Component={Osakunta} />
+            <Route path="/~epo/jaseneksi" Component={Jaseneksi} />
+            <Route path="/~epo/linkkeja" Component={Linkkeja} />
+          </Routes>
         </Box>
         <Footer />
       </Router>
